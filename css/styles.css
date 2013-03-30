@@ -1,0 +1,118 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#091d26; color:#869496; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#30a0c4; text-decoration:underline;}
+p a:hover{ color:#000; text-decoration:none;}
+
+.headline{font:12px/14px Trebuchet MS, sans-serif; color:#80c306; font-weight:bold}
+.subtitle{font:10px/10px Tahoma, Geneva, sans-serif; color:#a6a6a6;}
+
+#container{width:715px; margin:0 auto; padding:5px; padding-top:0; border:#c2eecb 5px solid; border-top:none; background:#FFF}
+
+/* HEADER */
+#header{width:705px; height:380px;  position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+
+#header img#logo{position:absolute; top:28px; left:21px}
+#header img#slogan{position:absolute; top:41px; left:372px}
+#header img#btn_presentation{position:absolute; top:54px; left:521px}
+#header img#slogan2{position:absolute; top:173px; left:372px}
+#header img#btn_readmore{position:absolute; top:311px; left:579px}
+
+#top{width:192px; position:absolute; top:176px; left:29px}
+#top h2{height:36px; position:relative; background:url(../images/h_top.jpg) 0 0 no-repeat; margin-bottom:13px}
+
+#top ul{margin-left:5px}
+#top ul li{font:12px/14px Arial, Helvetica, sans-serif; color:#62f7ff; padding-left:39px; height:22px; margin-bottom:1px; padding-top:8px}
+#top ul li.l01{ background:url(../images/check_top.jpg) 0 0 no-repeat}
+#top ul li.l02{ background:url(../images/check_top-04.jpg) 0 0 no-repeat}
+#top ul li.l03{ background:url(../images/check_top-05.jpg) 0 0 no-repeat}
+#top ul li a{color:#62f7ff; text-decoration:none;}
+#top ul li a:hover{color:#fff; text-decoration:none;}
+
+
+#header ul.menu{position:absolute; top:352px; left:32px; width:660px}
+#header ul.menu li{float:left; height:15px; margin-right:20px}
+#header ul.menu li a{height:15px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:15px;}
+
+#header ul.menu li.home a{width:77px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#header ul.menu li.home a:hover{width:77px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.about a{width:70px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#header ul.menu li.about a:hover{width:70px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.services a{width:63px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#header ul.menu li.services a:hover{width:63px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.solutions a{width:76px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#header ul.menu li.solutions a:hover{width:76px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.support a{width:63px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#header ul.menu li.support a:hover{width:63px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.contacts {margin-right:0}
+#header ul.menu li.contacts a{width:70px; background:url(../images/btn_6.gif) 0 0 no-repeat; }
+#header ul.menu li.contacts a:hover{width:70px; background:url(../images/btn_6_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.bullet{width:5px; background:url(../images/spacer_m.gif) 0 5px no-repeat}
+
+/* CONTENT */
+
+#content{width:705px; position:relative; margin-top:5px}
+#leftPan{width:350px; position:relative; margin:0 5px 0 0; float:left; }
+#rightPan{width:350px; position:relative; float:left;}
+
+.ad ul.btn_details{width:72px; height:22px; background:url(../images/b_btn_details.gif) 0 0 no-repeat}
+.ad ul.btn_details li{text-align:center; padding-top:4px}
+.ad ul.btn_details li a{font:10px/14px Tahoma, Geneva, sans-serif; color:#0c292b; text-decoration:none;}
+.ad ul.btn_details li a:hover{text-decoration:underline;}
+
+.ad{width:350px; height:159px; background: url(../images/b_ad.gif) 0 0 no-repeat; position:relative; margin-bottom:16px}
+.ad img{position: absolute; top:10px; left:10px}
+.ad#ad01 h2{height:51px; position:relative; background:url(../images/h_ad.gif) 107px 29px no-repeat; margin-bottom:2px}
+.ad#ad02 h2{height:51px; position:relative; background:url(../images/h_ad2.gif) 107px 29px no-repeat; margin-bottom:2px}
+.ad p {width:217px}
+.ad p.subtitle{margin-left:107px; margin-bottom:6px}
+.ad p.ad_text{margin-left:107px; margin-bottom:6px}
+.ad ul{position: absolute; top:103px; left:22px}
+
+#planning{ width:320px; margin-left:20px}
+#planning h2{height:38px; position:relative; background:url(../images/h_planning.gif) 0 0 no-repeat; margin-bottom:10px}
+#planning img{float:left; margin-right:10px}
+#planning p{float:left; width:168px; padding-top:3px}
+#planning .clear{height:10px}
+
+#planning ul{margin-left:3px; width:312px}
+#planning ul li{font:11px/14px Arial, Helvetica, sans-serif; color:#30a0c4; background:url(../images/arrow1.gif) 0 5px no-repeat; padding-left:24px; height:19px; border-bottom:#dfdfdf 1px dotted; padding-top:5px}
+#planning ul li a{color:#30a0c4; text-decoration:none;}
+#planning ul li a:hover{color:#000; text-decoration:none;}
+
+#why{ width:325px; margin-left:12px}
+#why h2{height:38px; position:relative; background:url(../images/h_why.gif) 9px 0 no-repeat; margin-bottom:10px}
+.why_topic{margin-bottom:9px}
+.why_topic img{float:left;}
+.why_topic p{float:left; width:263px; padding-top:6px}
+
+.clear#end{height:15px}
+
+/* FOOTER */
+
+#footer{
+	width:705px;
+	margin:0 auto;
+	margin-top:23px;
+	height:50px
+}
+#footer p{font:10px/14px Tahoma, Geneva, sans-serif; font-weight:normal; text-align:center; color:#FFF;}
+#footer p a{font:10px/14px Tahoma, Geneva, sans-serif; font-weight:normal; color:#FFF; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:none; background:#FFF; color:#000}
+#sponsor{
+	width:756px;
+	margin:0 auto;
+	text-align: center;
+	padding: 10px 0px 15px 0px;
+}
