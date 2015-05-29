@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "username": "jnorthr",
+    "repositoryName": "https://github.com/jnorthr/hubpress.io", 
+    "branch": "master"
+  },
+  "theme": {
+    "name": "Casper"
+  }
+}
